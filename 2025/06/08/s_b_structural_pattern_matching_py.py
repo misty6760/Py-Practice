@@ -1,4 +1,4 @@
-def describe_shape(shape: (int, str)):
+def describe_shape(shape):
     # 튜플 패턴 매칭
     match shape:
         case ("circle", r):
